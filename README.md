@@ -1,12 +1,48 @@
 # Jeopardy-Game
 
-Игра под названием "Своя игра". Участнику задаются вопросы на эрудицию. За каждый правильный ответ участнику начисляются баллы, за каждый неправильный ответ баллы списываются.
-
+<p>
+This is a game called "Jeopardy". The participant is asked questions for erudition. The participant is awarded points for each correct answer, points are deducted for each incorrect answer.
+</p>
+<h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Material UI, React Bootstrap.
+</h3>
 
-<p align="center">
+<h3> 
+  How to start the app locally:
+  </h3> 
+  
+  <p>
+  <ul>
+    <li>
+      Clone this repo <b><i> git clone git@github.com:antonsipin/Device-Master.git </i></b>
+    </li>
+     <li>
+       Go to the backend folder <b><i> cd backend </i></b>
+    </li>
+    <li>
+      Install the dependencies <b><i> npm install </i></b>
+    </li>
+    <li>
+      Place the .env file in the root directory (you can get it from me or take a look at .envexample file)
+    </li>
+    <li>
+      Run the app server <b><i> npm start </i></b> (The server starts at http://localhost:3100)
+    </li>
+    <li>
+      Go to the frontend folder <b><i> cd frontend </i></b>
+    </li>
+    <li>
+      Install the dependencies <b><i> npm install </i></b>
+    </li>
+    <li>
+      Run the app <b><i> npm start </i></b> (The app starts at http://localhost:3000 in browser and you will be able to test the app)
+    </li>
+  </ul>
+  </p> 
+
+<h3 align="center">
   <img src="frontend/public/Table.png" width="600" title="Таблица тем и категорий"> <br />
   <img src="frontend/public/Card.png" width="600" alt="Карточка с вопросом по категории"> <br />
   <img src="frontend/public/Table_time_out.png" width="600" title="Карточка с вопросом по категории"> <br />
-</p>
+</h3>
 
