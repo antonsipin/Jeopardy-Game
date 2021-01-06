@@ -1,0 +1,5 @@
+PORT=http port
+DB_USER=Database user
+DB_NAME=Database name
+DB_PASSWORD=Database password
+SESSION_SECRET=Secret String
