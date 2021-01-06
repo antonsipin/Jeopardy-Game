@@ -7,6 +7,8 @@ This is a game called "Jeopardy". The participant is asked questions for eruditi
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Material UI, React Bootstrap.
 </h3>
 
+The app is available on Heroku: https://jeopardy-interactive-game.herokuapp.com/
+
 <h3> 
   How to start the app locally:
   </h3> 
