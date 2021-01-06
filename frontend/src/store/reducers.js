@@ -1,7 +1,7 @@
 import { START_GAME, INIT, ANSWER } from './types'
 
 const initialState = {
-  users: [{ user: 'roman', score: 0 }],
+  users: [{ score: 0 }],
   themes: [{ title: 'money', status: [true, true, true, true, true] }],
   game: { status: false, question: '2+2=?', asnwer: '4', title: 'money', price: 400 },
   loading: false,

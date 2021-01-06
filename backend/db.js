@@ -11,9 +11,9 @@ const options = {
   bufferMaxEntries: 0,
 };
 
-const { DB_HOST, DB_NAME, DB_PASSWORD } = process.env;
+const { DB_USER, DB_NAME, DB_PASSWORD } = process.env;
 
-const dbConnectionURL = `mongodb+srv://${DB_HOST}:${DB_PASSWORD}@jeopardy.bu8cn.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
+const dbConnectionURL = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.wjoem.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
 
 function dbConnect() {
   mongoose.connect(dbConnectionURL, options, (err) => {

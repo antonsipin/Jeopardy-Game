@@ -3,6 +3,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container'
 import Theme from './Theme';
 
+const Table = ({ themes, users }) => {
+  
+  return (
+
+    <Container style={divStyle}>
+      {themes.map((theme, index) => (
+        <Theme key={index} theme={theme} />
+      ))}
+      { users.map((user, index) => (
+        <Container style={divStyle} key={index}>Your score: {user.score}</Container>
+      ))}
+    </Container>
+  )
+};
+
+export default memo(Table);
+
 const divStyle = {
   WebkitTransition: 'all',
   msTransition: 'all',
@@ -11,31 +28,7 @@ const divStyle = {
   alignItems: 'center',
   height: '865px',
   justifyContent: 'center',
-  flexDirection: 'column'
+  flexDirection: 'column',
+  fontSize:'30px'
 };
 
-const btnStyle = {
-  WebkitTransition: 'all',
-  msTransition: 'all',
-  height: '150px',
-  alignItems: 'center',
-  borderRadius: '1px',
-  borderColor: 'black',
-  fontSize: '30px',
-  textWeight: 'bold',
-  color: '#BDC43F'
-};
-
-const Table = ({ themes }) => {
-  
-  return (
-
-    <Container style={divStyle}>
-      {themes.map((theme) => (
-        <Theme theme={theme} />
-      ))}
-    </Container>
-  )
-};
-
-export default memo(Table);

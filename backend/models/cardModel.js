@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const cardSchema = new mongoose.Schema({
-  title: { type: String, unique: true },
+  title: String,
   question: [{
     title: String,
     answer: String,

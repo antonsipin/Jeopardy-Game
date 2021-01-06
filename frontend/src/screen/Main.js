@@ -11,7 +11,7 @@ const Main = () => {
 
   React.useEffect(() => {
     async function getData() {
-      const response = await fetch('http://localhost:3100/game', {
+      const response = await fetch('/game', {
         method: 'GET',
       });
       const data = await response.json();
@@ -22,11 +22,12 @@ const Main = () => {
 
   const game = useSelector((store) => store.game);
   const themes = useSelector((store) => store.themes);
+  const users = useSelector((store) => store.users);
 
   return (
     <React.Fragment >
       <Container>
-        {!game.status && <Table themes={themes} />}
+        {!game.status && <Table themes={themes} users={users}/>}
         {game.status && <Game title={game.title} question={game.question} price={game.price} answer={game.answer} />}
         </Container>
     </React.Fragment>

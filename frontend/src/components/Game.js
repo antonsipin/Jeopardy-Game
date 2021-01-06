@@ -11,25 +11,6 @@ import Timer from './Timer';
 import { useDispatch } from 'react-redux';
 import { handleAnswer } from '../store/actions';
 
-const useStyles = makeStyles({
-  root: {
-    marginTop: "3vh",
-    minWidth: 275,
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-});
-
-
 function Game({ title, answer, price, question }) {
   const classes = useStyles();
   const dispatch = useDispatch();
@@ -68,7 +49,6 @@ export default Game;
 const btnStyle = {
   WebkitTransition: 'all',
   msTransition: 'all',
-  // height: '90px',
   alignItems: 'center',
   borderRadius: '1px',
   borderColor: 'black',
@@ -77,3 +57,21 @@ const btnStyle = {
   color: '#BDC43F',
   borderRadius: '15px',
 };
+
+const useStyles = makeStyles({
+  root: {
+    marginTop: "3vh",
+    minWidth: 275,
+  },
+  bullet: {
+    display: 'inline-block',
+    margin: '0 2px',
+    transform: 'scale(0.8)',
+  },
+  title: {
+    fontSize: 14,
+  },
+  pos: {
+    marginBottom: 12,
+  },
+});

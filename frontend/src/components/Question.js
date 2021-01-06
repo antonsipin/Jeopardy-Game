@@ -7,7 +7,7 @@ function Question({ price, state, title }) {
   const dispatch = useDispatch();
   const handleClick = async () => {
     if (state) {
-      const response = await fetch(`http://localhost:3100/game/${title}`, {
+      const response = await fetch(`/game/${title}`, {
         method: 'GET'
       });
       const data = await response.json();
