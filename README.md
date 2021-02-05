@@ -13,7 +13,6 @@ The app is available on Heroku: https://jeopardy-interactive-game.herokuapp.com/
 <h3> 
   How to start the app locally:
   </h3> 
-  
   <p>
   <ul>
     <li>
