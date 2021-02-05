@@ -42,7 +42,6 @@ The app is available on Heroku: https://jeopardy-interactive-game.herokuapp.com/
     </li>
   </ul>
   </p> 
-
 <h3 align="center">
   <p>Topics and categories table:</p><br />
   <img src="frontend/public/Table.png" width="600" title="Таблица тем и категорий"> <br />
