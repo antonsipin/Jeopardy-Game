@@ -50,4 +50,3 @@ The app is available on Heroku: https://jeopardy-interactive-game.herokuapp.com/
   <img src="frontend/public/Table_time_out.png" width="600" title="Карточка с вопросом по категории"> <br />
 </h3>
 
-
