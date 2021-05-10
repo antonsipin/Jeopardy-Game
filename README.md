@@ -53,5 +53,6 @@ The app is available on Heroku: https://jeopardy-interactive-game.herokuapp.com/
   <img src="frontend/public/Card.png" width="600" alt="Карточка с вопросом по категории"> <br />
   <p>Question card by category:</p><br />
   <img src="frontend/public/Table_time_out.png" width="600" title="Карточка с вопросом по категории"> <br />
+  
 </h3>
 
