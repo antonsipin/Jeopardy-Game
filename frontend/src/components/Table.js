@@ -6,7 +6,6 @@ import Theme from './Theme';
 const Table = ({ themes, users }) => {
   
   return (
-
     <Container style={divStyle}>
       {themes.map((theme, index) => (
         <Theme key={index} theme={theme} />

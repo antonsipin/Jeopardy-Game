@@ -3,15 +3,12 @@
 <p>
 This is a game called "Jeopardy". The participant is asked questions for erudition. The participant is awarded points for each correct answer, points are deducted for each incorrect answer.
 </p>
-
 <h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Material UI, React Bootstrap.
 </h3>
-
 <h3> 
   How to start the app locally:
   </h3> 
-  
   <p>
   <ul>
     <li>
@@ -41,14 +38,12 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Materi
   </ul>
   </p> 
   
-<h3 align="center">
-  
+<h3>
   <p>Topics and categories table:</p><br />
   <img src="frontend/public/Table.png" width="600" title="Таблица тем и категорий"> <br />
   <p>Question card by category:</p><br />
   <img src="frontend/public/Card.png" width="600" alt="Карточка с вопросом по категории"> <br />
   <p>Question card by category:</p><br />
   <img src="frontend/public/Table_time_out.png" width="600" title="Карточка с вопросом по категории"> <br />
-  
 </h3>
 
