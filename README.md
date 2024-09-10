@@ -38,6 +38,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Materi
     </li>
   </ul>
   </p> 
+  
 <h3>
   <p>Topics and categories table:</p><br />
   <img src="frontend/public/Table.png" width="600" title="Таблица тем и категорий"> <br />
