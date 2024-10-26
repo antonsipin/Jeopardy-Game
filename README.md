@@ -47,5 +47,4 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Materi
   <img src="frontend/public/Card.png" width="600" alt="Карточка с вопросом по категории"> <br />
   <p>Question card by category:</p><br />
   <img src="frontend/public/Table_time_out.png" width="600" title="Карточка с вопросом по категории"> <br />
-  
 </h3>
