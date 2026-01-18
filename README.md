@@ -11,7 +11,8 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Materi
 <h3> 
   How to start the app locally:
 </h3>
-  <p>
+
+<p>
   <ul>
     <li>
       Clone this repo <b><i> git clone git@github.com:antonsipin/Device-Master.git </i></b>
@@ -38,7 +39,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Materi
       Run the app <b><i> npm start </i></b> (The app starts at http://localhost:3000 in browser and you will be able to test the app)
     </li>
   </ul>
-  </p> 
+</p> 
   
 <h3>
   <p>Topics and categories table:</p><br />
