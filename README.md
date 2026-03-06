@@ -3,6 +3,7 @@
 <p>
 This is a game called "Jeopardy". The participant is asked questions for erudition. The participant is awarded points for each correct answer, points are deducted for each incorrect answer.
 </p>
+
 <h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Material UI, React Bootstrap.
 </h3>
