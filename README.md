@@ -6,7 +6,6 @@ This is a game called "Jeopardy". The participant is asked questions for eruditi
 <h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux, Material UI, React Bootstrap.
 </h3>
-
 <h3> 
   How to start the app locally:
 </h3>
